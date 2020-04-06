@@ -1,0 +1,148 @@
+body {
+  transition: background-color 0.5s;
+  background-image: url("rockywall.png");
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica";
+}
+
+/* nav bar animation */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #818181;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* nave bar style and color */
+
+#navagation span {
+  float: right;
+  margin-right: 10px;
+  color: white;
+}
+
+#logo {
+  margin-left: 10px;
+  color: white;
+}
+
+header {
+  background-color: #800000;
+  transition: margin-left 0.5s;
+  padding: 16px;
+  border-bottom: solid #101010 2px;
+}
+
+#logo h1 span {
+  font-weight: 800;
+}
+
+#logo h1 {
+  font-weight: 200;
+}
+
+/* about me body content */
+
+.card-header {
+  background-color: #800000;
+  color: white;
+  border-bottom: solid #101010 2px;
+}
+
+/* footer */
+
+footer {
+  width: 110%;
+  height: 30px;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  background-color: #800000;
+  font-family: "Helvetica";
+  border-top: 6px solid #101010;
+  position: fixed;
+  overflow: auto;
+}
+
+/* button and hover affects and animation */
+
+.btn {
+  background-color: #800000;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #101010;
+}
+
+/* portfolio work space */
+
+.col-sm-6 img, .col-sm-6 p {
+ margin-left: 25%;
+}
+
+.col-sm-6 p {
+    background-color: #800000;
+    color: white;
+    padding-left: 10px;
+    width:200px;
+    border-top: 1px solid #101010;
+}
+
+#rowImages {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* contact work space */
+
+.form-group {
+    width: 100%;
+    position: relative;
+    height: 50%;
+
+}
+
+.form-group input{
+    width: 100%;
+    height: 100%;
+}
